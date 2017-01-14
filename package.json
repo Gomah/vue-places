@@ -1,0 +1,27 @@
+{
+  "name": "vue-places",
+  "version": "1.0.0",
+  "description": "Places component is based on [places.js](https://github.com/algolia/places) for Vue 2.x.",
+  "main": "src/Places.vue",
+  "repository": "Gomah/vue-places",
+  "author": "Gomah <hi@gomah.fr>",
+  "license": "MIT",
+  "keywords": [
+    "vue",
+    "vue-places",
+    "places",
+    "algolia",
+    "javascript",
+    "html",
+    "format",
+    "form",
+    "search",
+    "input"
+  ],
+  "peerDependencies": {
+    "vue": ">=2"
+  },
+  "dependencies": {
+    "places.js": "^1.4.8"
+  }
+}
