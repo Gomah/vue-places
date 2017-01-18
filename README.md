@@ -8,7 +8,7 @@ Places component is based on [places.js](https://github.com/algolia/places) for 
 
 ```bash
 # yarn
-yarn add vue-places
+$ yarn add vue-places
 
 # npm
 $ npm install vue-places --save
