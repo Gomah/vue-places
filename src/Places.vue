@@ -16,10 +16,10 @@ export default {
     },
   },
 
-  data () {
+  data() {
     return {
       placesAutocomplete: null,
-    }
+    };
   },
 
   methods: {
@@ -28,13 +28,13 @@ export default {
     },
   },
 
-  mounted () {
+  mounted() {
     this.options.container = this.options.container || this.$el;
     this.placesAutocomplete = places(this.options);
   },
 
-  beforeDestroy () {
+  beforeDestroy() {
     this.placesAutocomplete.destroy();
-  }
-}
+  },
+};
 </script>
