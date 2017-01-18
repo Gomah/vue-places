@@ -31,6 +31,14 @@ export default {
   mounted() {
     this.options.container = this.options.container || this.$el;
     this.placesAutocomplete = places(this.options);
+
+    this.placesAutocomplete.on('change', (e) => {
+      this.updateValue(e.suggestion.value);
+    });
+
+    this.placesAutocomplete.on('clear', () => {
+      this.updateValue(null);
+    });
   },
 
   beforeDestroy() {
