@@ -1,5 +1,7 @@
 # vue-places
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/Gomah/vue-places.svg)](https://greenkeeper.io/)
+
 Places component is based on [places.js](https://github.com/algolia/places) for Vue 2.x.
 
 ---------------
