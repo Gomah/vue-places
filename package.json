@@ -1,6 +1,6 @@
 {
   "name": "vue-places",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Places component is based on [places.js](https://github.com/algolia/places) for Vue 2.x.",
   "main": "src/Places.vue",
   "repository": "Gomah/vue-places",
@@ -25,7 +25,7 @@
     "vue": ">=2"
   },
   "dependencies": {
-    "places.js": "^1.4.8"
+    "places.js": "^1.4.9"
   },
   "devDependencies": {
     "eslint": "^3.14.0",
