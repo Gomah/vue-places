@@ -33,10 +33,12 @@ export default {
     this.placesAutocomplete = places(this.options);
 
     this.placesAutocomplete.on('change', (e) => {
+      this.$emit('change', e.suggestion);
       this.updateValue(e.suggestion.value);
     });
 
     this.placesAutocomplete.on('clear', () => {
+      this.$emit('change', {});
       this.updateValue(null);
     });
   },
