@@ -1,11 +1,14 @@
 {
   "name": "vue-places",
-  "version": "1.0.2",
+  "version": "1.1.0",
   "description": "Places component is based on [places.js](https://github.com/algolia/places) for Vue 2.x.",
   "main": "src/Places.vue",
   "repository": "Gomah/vue-places",
   "author": "Gomah <hi@gomah.fr>",
   "license": "MIT",
+  "files": [
+    "src/Places.vue"
+  ],
   "scripts": {
     "lint": "eslint --ext .vue src/"
   },
@@ -25,12 +28,12 @@
     "vue": ">=2"
   },
   "dependencies": {
-    "places.js": "^1.4.9"
+    "places.js": "^1.4.12"
   },
   "devDependencies": {
-    "eslint": "^3.14.0",
-    "eslint-config-airbnb-base": "^11.0.1",
-    "eslint-plugin-html": "^2.0.0",
+    "eslint": "^3.18.0",
+    "eslint-config-airbnb-base": "^11.1.2",
+    "eslint-plugin-html": "^2.0.1",
     "eslint-plugin-import": "^2.2.0"
   }
 }

@@ -38,6 +38,7 @@ export default {
     });
 
     this.placesAutocomplete.on('clear', () => {
+      this.$emit('change', {});
       this.updateValue(null);
     });
   },
