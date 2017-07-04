@@ -20,12 +20,24 @@ $ npm install vue-places --save
 
 ```vue
 <template>
-  <places
-    v-model="form.country.label"
+  <Places
     placeholder="Where are we going ?"
-    @change="val => { form.country.data = val }"
-    :options="{ countries: 'US' }">
-  </places>
+    @change="processChange"
+    :options="{
+      countries: ['US']
+    }">
+  </Places>
+  <div v-if="currentAdress.name">
+    <h2>Current Adress</h2>
+    <p>
+      Adress: {{ currentAddress.name }} <br />
+      City: {{ currentAddress.city }} <br />
+      Zipcode: {{ currentAddress.postcode }} <br />
+      Country: {{ currentAddress.country }} <br />
+      Latitude: {{ currentAddress.latlng.lat }} <br />
+      Longitude: {{ currentAddress.latlng.lng }} <br />
+    </p>
+  </div>
 </template>
 
 <script>
@@ -34,13 +46,13 @@ import Places from 'vue-places'
 export default {
   data() {
     return {
-      form: {
-        country: {
-          label: null,
-          data: {},
-        },
-      },
+      currentAddress: {}
     };
+  },
+  methods: {
+    processChange (e) {
+      this.currentAddress = Object.assign({}, e);
+    }
   },
   components: {
     Places
