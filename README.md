@@ -24,7 +24,7 @@ $ npm install vue-places --save
     v-model="form.country.label"
     placeholder="Where are we going ?"
     @change="val => { form.country.data = val }"
-    :options="{ countries: 'US' }">
+    :options="{ countries: ['US'] }">
   </places>
 </template>
 
