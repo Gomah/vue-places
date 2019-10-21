@@ -1,16 +1,29 @@
 {
   "name": "vue-places",
-  "version": "1.1.0",
+  "version": "2.0.0",
   "description": "Places component is based on [places.js](https://github.com/algolia/places) for Vue 2.x.",
-  "main": "src/Places.vue",
-  "repository": "Gomah/vue-places",
-  "author": "Gomah <hi@gomah.fr>",
+  "main": "dist/places.ssr.js",
+  "module": "dist/places.esm.js",
+  "unpkg": "dist/places.min.js",
+  "repository": "git@github.com:Gomah/vue-places.git",
+  "author": {
+    "name": "Gomah <hi@gomah.fr>"
+  },
   "license": "MIT",
   "files": [
-    "src/Places.vue"
+    "dist/*",
+    "src/**/*.vue"
   ],
   "scripts": {
-    "lint": "eslint --ext .vue src/"
+    "build": "cross-env NODE_ENV=production rollup --config build/rollup.config.js",
+    "build:ssr": "cross-env NODE_ENV=production rollup --config build/rollup.config.js --format cjs",
+    "build:es": "cross-env NODE_ENV=production rollup --config build/rollup.config.js --format es",
+    "build:unpkg": "cross-env NODE_ENV=production rollup --config build/rollup.config.js --format iife",
+    "prepublishOnly": "yarn build",
+    "release": "yarn test && standard-version && git push --follow-tags && npm publish",
+    "test": "yarn test:lint && yarn test:unit",
+    "test:lint": "eslint --ext .ts,.js,.vue src/",
+    "test:unit": "cross-env BABEL_ENV=test jest --coverage"
   },
   "keywords": [
     "vue",
@@ -24,16 +37,42 @@
     "search",
     "input"
   ],
-  "peerDependencies": {
-    "vue": ">=2"
-  },
   "dependencies": {
-    "places.js": "^1.4.12"
+    "places.js": "^1.16.6"
   },
   "devDependencies": {
-    "eslint": "^3.18.0",
-    "eslint-config-airbnb-base": "^11.1.2",
-    "eslint-plugin-html": "^2.0.1",
-    "eslint-plugin-import": "^2.2.0"
+    "@babel/core": "^7.6.4",
+    "@babel/preset-env": "^7.6.3",
+    "@commitlint/cli": "^8.2.0",
+    "@commitlint/config-conventional": "^8.2.0",
+    "@vue/test-utils": "^1.0.0-beta.29",
+    "babel-eslint": "^10.0.3",
+    "babel-jest": "^24.9.0",
+    "cross-env": "^6.0.3",
+    "eslint": "^6.5.1",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-config-prettier": "^6.4.0",
+    "eslint-import-resolver-webpack": "^0.11.1",
+    "eslint-loader": "^3.0.2",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-prettier": "^3.1.1",
+    "eslint-plugin-vue": "^5.2.3",
+    "husky": "^3.0.9",
+    "jest": "^24.9.0",
+    "jest-serializer-vue": "^2.0.2",
+    "minimist": "^1.2.0",
+    "prettier": "^1.18.2",
+    "rollup": "^1.23.1",
+    "rollup-plugin-buble": "^0.19.8",
+    "rollup-plugin-commonjs": "^10.1.0",
+    "rollup-plugin-replace": "^2.2.0",
+    "rollup-plugin-terser": "^5.1.2",
+    "rollup-plugin-typescript": "^1.0.1",
+    "rollup-plugin-vue": "^5.0.1",
+    "standard-version": "^7.0.0",
+    "typescript": "^3.6.4",
+    "vue": "^2.6.10",
+    "vue-jest": "^4.0.0-beta.2",
+    "vue-template-compiler": "^2.6.10"
   }
 }

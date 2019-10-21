@@ -1,9 +1,11 @@
 <template>
-  <input type="search" v-bind:value="value" @input="updateValue($event.target.value)" />
+  <input
+    type="search"
+    :value="value"
+    @input="updateValue($event.target.value)"
+  />
 </template>
 <script>
-import places from 'places.js';
-
 export default {
   props: {
     value: {
@@ -22,29 +24,38 @@ export default {
     };
   },
 
+  mounted() {
+    this.init();
+  },
+
   methods: {
+    init() {
+      const places = require('places.js');
+
+      this.options.container = this.options.container || this.$el;
+      this.placesAutocomplete = places(this.options);
+
+      this.placesAutocomplete.on('change', e => {
+        this.$emit('change', e.suggestion);
+        this.updateValue(e.suggestion.value);
+      });
+
+      this.placesAutocomplete.on('clear', () => {
+        this.$emit('change', {});
+        this.$emit('clear');
+        this.updateValue(null);
+      });
+    },
+
     updateValue(value) {
       this.$emit('input', value);
     },
   },
 
-  mounted() {
-    this.options.container = this.options.container || this.$el;
-    this.placesAutocomplete = places(this.options);
-
-    this.placesAutocomplete.on('change', (e) => {
-      this.$emit('change', e.suggestion);
-      this.updateValue(e.suggestion.value);
-    });
-
-    this.placesAutocomplete.on('clear', () => {
-      this.$emit('change', {});
-      this.updateValue(null);
-    });
-  },
-
   beforeDestroy() {
-    this.placesAutocomplete.destroy();
+    if (this.placesAutocomplete) {
+      this.placesAutocomplete.destroy();
+    }
   },
 };
 </script>
