@@ -1,0 +1,21 @@
+{
+  "name": "nuxt",
+  "version": "1.0.0",
+  "description": "My fabulous Nuxt.js project",
+  "author": "Gomah",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+    "lint": "eslint --ext .js,.vue --ignore-path .gitignore ."
+  },
+  "dependencies": {
+    "nuxt": "^2.10.1",
+    "vue-places": "../.."
+  },
+  "devDependencies": {
+    "prettier": "^1.18.2"
+  }
+}
