@@ -24,6 +24,15 @@ export default {
     };
   },
 
+  watch: {
+    options: {
+      deep: true,
+      handler(newOptions) {
+        this.placesAutocomplete.configure(newOptions);
+      },
+    },
+  },
+
   mounted() {
     this.init();
   },
