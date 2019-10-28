@@ -38,7 +38,7 @@
     "input"
   ],
   "dependencies": {
-    "places.js": "^1.16.6"
+    "places.js": "^1.17.0"
   },
   "devDependencies": {
     "@babel/core": "^7.6.4",
