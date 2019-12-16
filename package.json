@@ -71,8 +71,8 @@
     "rollup-plugin-vue": "^5.1.4",
     "standard-version": "^7.0.1",
     "typescript": "^3.7.3",
-    "vue": "^2.6.10",
+    "vue": "^2.6.11",
     "vue-jest": "^4.0.0-beta.2",
-    "vue-template-compiler": "^2.6.10"
+    "vue-template-compiler": "^2.6.11"
   }
 }
