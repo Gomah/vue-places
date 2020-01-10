@@ -2,6 +2,37 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [2.1.2](https://github.com/Gomah/vue-places/compare/v2.1.1...v2.1.2) (2020-01-10)
+
+
+### Chore
+
+* **deps-dev:** bump @babel/core from 7.7.4 to 7.7.5 ([d0a67ae](https://github.com/Gomah/vue-places/commit/d0a67ae9cb3a1de2d33e449255d2e31ae61524e4))
+* **deps-dev:** bump @babel/core from 7.7.5 to 7.7.7 ([90d6d19](https://github.com/Gomah/vue-places/commit/90d6d1915638fe8d394a19e32df907c2825ab10a))
+* **deps-dev:** bump @babel/preset-env from 7.7.4 to 7.7.6 ([3272af5](https://github.com/Gomah/vue-places/commit/3272af534fb2b3aa49c246377e83ad82dd8c8bc0))
+* **deps-dev:** bump @babel/preset-env from 7.7.6 to 7.7.7 ([ee3750c](https://github.com/Gomah/vue-places/commit/ee3750cb31faee213da0390b314a5413afaf77d0))
+* **deps-dev:** bump @commitlint/cli from 8.2.0 to 8.3.4 ([f1e9b9a](https://github.com/Gomah/vue-places/commit/f1e9b9aab3bb2516c406b951ba4d43e00dae6e27))
+* **deps-dev:** bump @commitlint/config-conventional ([29d419b](https://github.com/Gomah/vue-places/commit/29d419bbff2de476750c1c7847bf9feca315780d))
+* **deps-dev:** bump @vue/test-utils ([4f7d4a1](https://github.com/Gomah/vue-places/commit/4f7d4a19ded1a749f8cbb130db7b55e62dfab28d))
+* **deps-dev:** bump eslint from 6.7.1 to 6.7.2 ([04b9442](https://github.com/Gomah/vue-places/commit/04b9442563cf5f53268636d1cbe459e61fbe7825))
+* **deps-dev:** bump eslint from 6.7.2 to 6.8.0 ([87c7106](https://github.com/Gomah/vue-places/commit/87c710661faec70121d78fb7ad7cea37f2d14832))
+* **deps-dev:** bump eslint-config-prettier from 6.7.0 to 6.9.0 ([48842c4](https://github.com/Gomah/vue-places/commit/48842c4060aa8fb057dd9f682931a3232d4fa279))
+* **deps-dev:** bump eslint-import-resolver-webpack ([a22ff4c](https://github.com/Gomah/vue-places/commit/a22ff4c34526bb49a7b418c9c644617a9b3a7585))
+* **deps-dev:** bump eslint-loader from 3.0.2 to 3.0.3 ([6ffc7cb](https://github.com/Gomah/vue-places/commit/6ffc7cb57b9e312be5ec5ae9c73a7deae668dc66))
+* **deps-dev:** bump eslint-plugin-import from 2.18.2 to 2.19.1 ([327597c](https://github.com/Gomah/vue-places/commit/327597c69d7f2a0781ccd540cdf1f22ff39095e4))
+* **deps-dev:** bump eslint-plugin-prettier from 3.1.1 to 3.1.2 ([ea5eebc](https://github.com/Gomah/vue-places/commit/ea5eebc2103b2371cbf37e5857add10a8878a1f9))
+* **deps-dev:** bump eslint-plugin-vue from 6.0.1 to 6.1.2 ([f8e0566](https://github.com/Gomah/vue-places/commit/f8e0566dca13dcaba5b733b8f9f74a88077d0d98))
+* **deps-dev:** bump rollup from 1.27.13 to 1.27.14 ([c0e7289](https://github.com/Gomah/vue-places/commit/c0e7289bc82dc89c0ee28c583c5fabdbbb987578))
+* **deps-dev:** bump rollup from 1.27.14 to 1.28.0 ([8deebb2](https://github.com/Gomah/vue-places/commit/8deebb2248465af87149c47bea8e11fdd516e2a9))
+* **deps-dev:** bump rollup from 1.27.5 to 1.27.8 ([acc6f45](https://github.com/Gomah/vue-places/commit/acc6f456f6aff0c8ee27b78bf3891a32ed762a3d))
+* **deps-dev:** bump rollup from 1.27.8 to 1.27.9 ([375b3e6](https://github.com/Gomah/vue-places/commit/375b3e6df8a33bf7dd584dbb1ab027d4eca69b25))
+* **deps-dev:** bump rollup from 1.27.9 to 1.27.13 ([18e6727](https://github.com/Gomah/vue-places/commit/18e6727adbc55e00adeed58e6380b1a351153956))
+* **deps-dev:** bump rollup-plugin-terser from 5.1.2 to 5.1.3 ([9913fbc](https://github.com/Gomah/vue-places/commit/9913fbc7b01821a7745dd413335bac56effec788))
+* **deps-dev:** bump typescript from 3.7.2 to 3.7.3 ([3753211](https://github.com/Gomah/vue-places/commit/37532118d2c00f988e16059951d10d40e380586b))
+* **deps-dev:** bump typescript from 3.7.3 to 3.7.4 ([4e7c8ca](https://github.com/Gomah/vue-places/commit/4e7c8ca6307708c38486fddd4d1ac5516fd53e8f))
+* **deps-dev:** bump vue and vue-template-compiler ([85d1ee6](https://github.com/Gomah/vue-places/commit/85d1ee65c3cdc0fbd1ae55112810431d749743a2))
+* **deps-dev:** upgrade dependencies ([8e9423c](https://github.com/Gomah/vue-places/commit/8e9423c460c7688e5b642b65ad1c4c007222f190))
+
 ### [2.1.1](https://github.com/Gomah/vue-places/compare/v2.1.0...v2.1.1) (2019-11-25)
 
 
