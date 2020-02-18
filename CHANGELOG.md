@@ -2,6 +2,40 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [2.1.3](https://github.com/Gomah/vue-places/compare/v2.1.2...v2.1.3) (2020-02-18)
+
+
+### Chore
+
+* **deps:** bump places.js from 1.17.1 to 1.18.1 ([0f2497b](https://github.com/Gomah/vue-places/commit/0f2497b24edce7641d26a868d8cf060fafe9ae11))
+* **deps-dev:** bump @babel/core from 7.7.7 to 7.8.0 ([71ee77b](https://github.com/Gomah/vue-places/commit/71ee77b6981096017085403c9be6e81fa1b93a05))
+* **deps-dev:** bump @babel/core from 7.8.0 to 7.8.3 ([26c4e93](https://github.com/Gomah/vue-places/commit/26c4e93bfb78bda923e6c38027a17394bf832b90))
+* **deps-dev:** bump @babel/core from 7.8.3 to 7.8.4 ([1baca8e](https://github.com/Gomah/vue-places/commit/1baca8e58dd20df81bf4f6e60ece5a489798cf63))
+* **deps-dev:** bump @babel/preset-env from 7.7.7 to 7.8.2 ([8ab033a](https://github.com/Gomah/vue-places/commit/8ab033a9cea2fbe31405af4eeeb7442595960465))
+* **deps-dev:** bump @babel/preset-env from 7.8.2 to 7.8.3 ([0e6c990](https://github.com/Gomah/vue-places/commit/0e6c990d0fab7d716630c1bb743365a58982babd))
+* **deps-dev:** bump @babel/preset-env from 7.8.3 to 7.8.4 ([1755221](https://github.com/Gomah/vue-places/commit/1755221c3439e915f55666a7f52665f039dd7d25))
+* **deps-dev:** bump @commitlint/cli from 8.3.4 to 8.3.5 ([85ba281](https://github.com/Gomah/vue-places/commit/85ba281447637d11fa361dbda4b3961fb8eecb76))
+* **deps-dev:** bump @vue/test-utils ([9d8455a](https://github.com/Gomah/vue-places/commit/9d8455af4de7e1d64c4b0ba45efe95ccb6dbb3ef))
+* **deps-dev:** bump babel-jest from 24.9.0 to 25.1.0 ([11a4546](https://github.com/Gomah/vue-places/commit/11a4546ca6a5c1e8945f71c66ea27930ccd59f6a))
+* **deps-dev:** bump cross-env from 6.0.3 to 7.0.0 ([5eb6e36](https://github.com/Gomah/vue-places/commit/5eb6e36290fe3009ad8d8dde32f304a64c05c745))
+* **deps-dev:** bump eslint-config-prettier from 6.9.0 to 6.10.0 ([28016c9](https://github.com/Gomah/vue-places/commit/28016c9a7bf04408adeea9f7a73cc48d0438aa27))
+* **deps-dev:** bump eslint-import-resolver-webpack ([09cb651](https://github.com/Gomah/vue-places/commit/09cb6519b47ad9072dd428992fafc3150f0b51d8))
+* **deps-dev:** bump eslint-plugin-import from 2.19.1 to 2.20.0 ([132cd7f](https://github.com/Gomah/vue-places/commit/132cd7f7f90c084eabe0dae00a6abe26131183b3))
+* **deps-dev:** bump eslint-plugin-import from 2.20.0 to 2.20.1 ([9951393](https://github.com/Gomah/vue-places/commit/9951393f631a432801eda40fd8352f9eb4e2ed49))
+* **deps-dev:** bump eslint-plugin-vue from 6.1.2 to 6.2.1 ([4b09b54](https://github.com/Gomah/vue-places/commit/4b09b54cf20a513ec76d4b6545534db8af0bb7b7))
+* **deps-dev:** bump husky from 4.0.10 to 4.2.1 ([315d310](https://github.com/Gomah/vue-places/commit/315d310c8d224834744ff944661b283715f17ae3))
+* **deps-dev:** bump husky from 4.0.5 to 4.0.7 ([c2679a2](https://github.com/Gomah/vue-places/commit/c2679a26e53b62e365592e77743d8d046cf3950a))
+* **deps-dev:** bump husky from 4.0.7 to 4.0.10 ([76efd3d](https://github.com/Gomah/vue-places/commit/76efd3d539e41f3bfca48b85e3dfbb1244bfcd88))
+* **deps-dev:** bump husky from 4.2.1 to 4.2.3 ([b9fa4ee](https://github.com/Gomah/vue-places/commit/b9fa4eee2db9f80e2e575988c75b7048880eda53))
+* **deps-dev:** bump rollup from 1.29.0 to 1.30.1 ([310b6b2](https://github.com/Gomah/vue-places/commit/310b6b2f437cb8b9a7c3edd35a715d668bd4477f))
+* **deps-dev:** bump rollup from 1.30.1 to 1.31.0 ([d6a23d8](https://github.com/Gomah/vue-places/commit/d6a23d809a54b7ef45f9607c293594e7d5661c8a))
+* **deps-dev:** bump rollup from 1.31.0 to 1.31.1 ([84268c5](https://github.com/Gomah/vue-places/commit/84268c5904304d880ac8de6e3372dcd8f390832a))
+* **deps-dev:** bump rollup-plugin-terser from 5.1.3 to 5.2.0 ([746318b](https://github.com/Gomah/vue-places/commit/746318babe159cd84954b8853cf4ab4f6d214791))
+* **deps-dev:** bump rollup-plugin-vue from 5.1.5 to 5.1.6 ([289a7bf](https://github.com/Gomah/vue-places/commit/289a7bfd25bc3ac3a1f7a58bccada7aff2fad3fe))
+* **deps-dev:** bump standard-version from 7.0.1 to 7.1.0 ([aee7d85](https://github.com/Gomah/vue-places/commit/aee7d85d84f5724f680f2b1a96a81fa8113d8fdc))
+* **deps-dev:** bump typescript from 3.7.4 to 3.7.5 ([623820b](https://github.com/Gomah/vue-places/commit/623820bef736a198fd921ebdf730f1d0ea384717))
+* **pkg:** lock places.js version ([4c564b8](https://github.com/Gomah/vue-places/commit/4c564b8b5a85bca832b6e9683acc1d28dbfea7ea))
+
 ### [2.1.2](https://github.com/Gomah/vue-places/compare/v2.1.1...v2.1.2) (2020-01-10)
 
 
