@@ -4,7 +4,6 @@ Places component is based on [places.js](https://github.com/algolia/places) for 
 
 > Turn any <input> into an address autocomplete
 
-
 [![circle-ci][circle-src]][circle-href]
 [![npm version][npm-version-src]][npm-version-href]
 [![Dependencies][david-dm-src]][david-dm-href]
@@ -33,7 +32,7 @@ $ npm install vue-places --save
     v-model="form.country.label"
     placeholder="Where are we going ?"
     @change="val => { form.country.data = val }"
-    :options="{ countries: ['US'] }">
+    :options="options">
   </places>
 </template>
 
@@ -43,6 +42,11 @@ import Places from 'vue-places';
 export default {
   data() {
     return {
+      options: {
+        appId: <YOUR_PLACES_APP_ID>,
+        apiKey: <YOUR_PLACES_API_KEY>,
+        countries: ['US'],
+      },
       form: {
         country: {
           label: null,
