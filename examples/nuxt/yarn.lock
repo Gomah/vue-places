@@ -1212,9 +1212,9 @@ acorn-walk@^6.1.1:
   integrity sha512-7evsyfH1cLOCdAzZAd43Cic04yKydNx0cF+7tiA19p1XnLLPU4dpCQOqpjqwokFe//vS0QqfqqjCS2JkiIs0cA==
 
 acorn@^6.0.7, acorn@^6.2.1:
-  version "6.3.0"
-  resolved "https://registry.yarnpkg.com/acorn/-/acorn-6.3.0.tgz#0087509119ffa4fc0a0041d1e93a417e68cb856e"
-  integrity sha512-/czfa8BwS88b9gWQVhc8eknunSA2DoJpJyTQkhheIf5E48u1N0R4q/YxxsAeqRrmK9TQ/uYfgLDfZo91UlANIA==
+  version "6.4.1"
+  resolved "https://registry.yarnpkg.com/acorn/-/acorn-6.4.1.tgz#531e58ba3f51b9dacb9a6646ca4debf5b14ca474"
+  integrity sha512-ZVA9k326Nwrj3Cj9jlh3wGFutC2ZornPNARZwsNYqQYgN0EsV2d53w5RN/co65Ohn4sUAUtb1rSUAOD6XN9idA==
 
 agentkeepalive@^2.2.0:
   version "2.2.0"
@@ -1249,12 +1249,7 @@ ajv@^6.1.0, ajv@^6.10.2:
     json-schema-traverse "^0.4.1"
     uri-js "^4.2.2"
 
-algolia-aerial@^1.5.3:
-  version "1.5.3"
-  resolved "https://registry.yarnpkg.com/algolia-aerial/-/algolia-aerial-1.5.3.tgz#c8b8ca6bc484164ffc7b36717689a424ea6bfe6c"
-  integrity sha512-LZTpVlYnhqNFd+ru/Spm73omhsagiRQLmjrosa5bJ6/I9OMRp4Sb9pYZkAxcx3RSr+ZNXZqthL7rpXqMFdrnPA==
-
-algoliasearch@^3.31.0:
+algoliasearch@^3.35.1:
   version "3.35.1"
   resolved "https://registry.yarnpkg.com/algoliasearch/-/algoliasearch-3.35.1.tgz#297d15f534a3507cab2f5dfb996019cac7568f0c"
   integrity sha512-K4yKVhaHkXfJ/xcUnil04xiSrB8B8yHZoFEhWNpXg23eiCnqvTZw1tn/SqvdsANlYHLJlKl0qi3I/Q2Sqo7LwQ==
@@ -5009,13 +5004,12 @@ pkg-dir@^4.1.0:
   dependencies:
     find-up "^4.0.0"
 
-places.js@^1.16.6:
-  version "1.16.6"
-  resolved "https://registry.yarnpkg.com/places.js/-/places.js-1.16.6.tgz#bce243f7d1a1072f9d1a60c9dccdf1c739c82ae2"
-  integrity sha512-SGDYijNL8oPBr52avj81+HL/u//Igvv6V4KmL9umkbLufgh/hbT+tl0RyaCIxt4tKtnxoFInKFiewVq4xygqrQ==
+places.js@1.18.1:
+  version "1.18.1"
+  resolved "https://registry.yarnpkg.com/places.js/-/places.js-1.18.1.tgz#524fd43952e3b83268f828141a1325cdcdde7f58"
+  integrity sha512-73ie7F+6TJRtRnxZoLtIRLh+mon7O5ZEdAknYPOL396w/x+u5M9Om05HcTLDnl0/64poH+LmgDmQey2mNH7/lw==
   dependencies:
-    algolia-aerial "^1.5.3"
-    algoliasearch "^3.31.0"
+    algoliasearch "^3.35.1"
     autocomplete.js "^0.37.0"
     events "^3.0.0"
     insert-css "^2.0.0"
@@ -7048,9 +7042,9 @@ vue-no-ssr@^1.1.1:
   integrity sha512-ZMjqRpWabMPqPc7gIrG0Nw6vRf1+itwf0Itft7LbMXs2g3Zs/NFmevjZGN1x7K3Q95GmIjWbQZTVerxiBxI+0g==
 
 vue-places@../..:
-  version "2.0.0"
+  version "2.1.3"
   dependencies:
-    places.js "^1.16.6"
+    places.js "1.18.1"
 
 vue-router@~3.0.7:
   version "3.0.7"
