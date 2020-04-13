@@ -44,7 +44,7 @@ export default {
       this.options.container = this.options.container || this.$el;
       this.placesAutocomplete = places(this.options);
 
-      this.placesAutocomplete.on('change', e => {
+      this.placesAutocomplete.on('change', (e) => {
         this.$emit('change', e.suggestion);
         this.updateValue(e.suggestion.value);
       });
