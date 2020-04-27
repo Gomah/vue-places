@@ -5922,10 +5922,10 @@ pkg-up@^2.0.0:
   dependencies:
     find-up "^2.1.0"
 
-places.js@1.18.1:
-  version "1.18.1"
-  resolved "https://registry.yarnpkg.com/places.js/-/places.js-1.18.1.tgz#524fd43952e3b83268f828141a1325cdcdde7f58"
-  integrity sha512-73ie7F+6TJRtRnxZoLtIRLh+mon7O5ZEdAknYPOL396w/x+u5M9Om05HcTLDnl0/64poH+LmgDmQey2mNH7/lw==
+places.js@1.18.2:
+  version "1.18.2"
+  resolved "https://registry.yarnpkg.com/places.js/-/places.js-1.18.2.tgz#e9974f67c401da4849b27fda2f7bb2528f4718c1"
+  integrity sha512-/9XG+bo53mnld8b7UO0d/IsapnI/+EqQcsBO60GjpTvNjA+mz2jMazgbagmnXt8mIOuhO+j/VbABsxtW6/fQ7Q==
   dependencies:
     algoliasearch "^3.35.1"
     autocomplete.js "^0.37.0"
