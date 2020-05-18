@@ -45,7 +45,7 @@
     "@babel/preset-env": "^7.9.6",
     "@commitlint/cli": "^8.3.5",
     "@commitlint/config-conventional": "^8.3.4",
-    "@vue/test-utils": "^1.0.2",
+    "@vue/test-utils": "^1.0.3",
     "babel-eslint": "^10.1.0",
     "babel-jest": "^26.0.1",
     "cross-env": "^7.0.2",
