@@ -2,6 +2,20 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [2.2.0](https://github.com/Gomah/vue-places/compare/v2.1.4...v2.2.0) (2020-06-02)
+
+
+### Chore
+
+* **deps:** bump places.js from 1.18.2 to 1.19.0 ([f8a314e](https://github.com/Gomah/vue-places/commit/f8a314e8e6f7c3b18164084ff58413edbcd57249))
+* **deps-dev:** bump @babel/core from 7.9.6 to 7.10.2 ([5359938](https://github.com/Gomah/vue-places/commit/53599384e3e7b498e8869fed38516e74b272245c))
+* **deps-dev:** bump @babel/preset-env from 7.9.6 to 7.10.2 ([5a3f010](https://github.com/Gomah/vue-places/commit/5a3f010676d34b4ba4656bb472ff8078263a1a0a))
+* **deps-dev:** bump rollup from 2.10.3 to 2.10.9 ([477de10](https://github.com/Gomah/vue-places/commit/477de101f9246523fd6183842cd3671db49d3ff0))
+* **deps-dev:** bump rollup from 2.10.9 to 2.12.0 ([74285a4](https://github.com/Gomah/vue-places/commit/74285a49b5e1e9f1ff11c2714ad337914b717204))
+* **deps-dev:** bump rollup-plugin-terser from 5.3.0 to 6.1.0 ([f1da45a](https://github.com/Gomah/vue-places/commit/f1da45a6637a7b2d458e878e7ea25927452a5a86))
+* **deps-dev:** bump rollup-plugin-vue from 5.1.7 to 5.1.9 ([d79fd6a](https://github.com/Gomah/vue-places/commit/d79fd6a942cd35f588716dde703011ee9fb09214))
+* **deps-dev:** bump typescript from 3.9.2 to 3.9.3 ([1648a6c](https://github.com/Gomah/vue-places/commit/1648a6cdcb06b3f7818601f623d1844e94813288))
+
 ### [2.1.4](https://github.com/Gomah/vue-places/compare/v2.1.3...v2.1.4) (2020-05-19)
 
 
